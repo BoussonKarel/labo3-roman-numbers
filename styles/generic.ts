@@ -43,9 +43,15 @@ export const forms = StyleSheet.create({
     fontWeight: "bold",
 
     marginVertical: 8,
+    marginHorizontal: -8,
+    paddingHorizontal: 8,
+    paddingVertical: 8,
     borderRadius: 4,
 
     // borderWidth: 1,
     // borderColor: colors.dark,
   },
+  invalid: {
+    color: 'red'
+  }
 });
